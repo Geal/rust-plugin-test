@@ -5,4 +5,5 @@ authors = ["Geoffroy Couprie <geo.couprie@gmail.com>"]
 build = "build.rs"
 
 [dependencies]
-plugin-test-plugins = { version = "^0.1", paths = "./plugins" }
+plugin-test-api = { version = "^0.1", paths = "../plugin-test-api" }
+plugin-test-plugins = { version = "^0.1", paths = "../plugins" }
