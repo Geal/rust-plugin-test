@@ -1,4 +1,4 @@
-plugin-name = "english"
+name = "english"
 
 [dependencies]
 nom = "^3"
