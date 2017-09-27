@@ -9,9 +9,8 @@ authors = ["geo"]
 # if there are some dependenciespendency conflicts, maybe use
 # another crate as indirection?
 [dependencies]
+plugin-test-api = { version = "^0.1", paths = "../plugin-api" }
 nom = "^3"
 
 # directly import a plugin's crate instead of copying the code if necessary
-french = "0.1"
-
-plugin-api = "^0.1"
+#french = "0.1"
