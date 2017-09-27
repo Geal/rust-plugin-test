@@ -1,3 +1,5 @@
+**Warning: this is a repository to test the [cargo-plugin project](https://github.com/Geal/cargo-plugin)**
+
 # how to make a plugin system in Rust
 
 ## First idea: in tree (or build folder)
