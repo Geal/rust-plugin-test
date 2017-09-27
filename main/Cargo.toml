@@ -1,11 +1,11 @@
 [package]
 name = "plugin-test-main"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Geoffroy Couprie <geo.couprie@gmail.com>"]
 build = "build.rs"
 description = "main application for the plugin-test experiment"
 license = "MIT"
 
 [dependencies]
-plugin-test-api = { version = "^0.1", paths = "../plugin-api" }
-plugin-test-plugins = { version = "^0.1", paths = "../plugins" }
+plugin-test-api = { version = "^0.1", path = "../plugin-api" }
+plugin-test-plugins = { version = "^0.1", path = "../plugins" }

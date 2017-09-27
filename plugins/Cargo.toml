@@ -2,7 +2,7 @@
 
 [package]
 name = "plugin-test-plugins"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Geoffroy Couprie <geo.couprie@gmail.com>"]
 description = "plugins crate for the plugin-test experiment"
 license = "MIT"
@@ -11,7 +11,7 @@ license = "MIT"
 # if there are some dependenciespendency conflicts, maybe use
 # another crate as indirection?
 [dependencies]
-plugin-test-api = { version = "^0.1", paths = "../plugin-api" }
+plugin-test-api = { version = "^0.1", path = "../plugin-api" }
 #nom = "^3"
 
 # directly import a plugin's crate instead of copying the code if necessary
