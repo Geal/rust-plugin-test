@@ -2,7 +2,7 @@
 
 [package]
 name = "plugin-test-plugins"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Geoffroy Couprie <geo.couprie@gmail.com>"]
 description = "plugins crate for the plugin-test experiment"
 license = "MIT"

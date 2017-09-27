@@ -3,17 +3,18 @@ extern crate plugin_test_api as plugin_api;
 //extern crate french;
 
 mod english;
+mod french;
 
 // should we do that?
 pub use english::*;
-//pub use french::*;
+pub use french::*;
 
 use plugin_api::PluginInformation;
 use std::collections::hash_map::HashMap;
 
 
 pub struct Plugins {
-  list: HashMap<String, Box<PluginInformation> >,
+  pub list: HashMap<String, Box<PluginInformation> >,
 }
 
 ///FIXME: should return a static list of plugins
@@ -23,6 +24,7 @@ pub struct Plugins {
 pub fn plugins() -> Plugins {
   let mut h:  HashMap<String, Box<PluginInformation> > = HashMap::new();
   h.insert("english".to_string(), Box::new(english::PLUGIN_METADATA));
+  h.insert("french".to_string(), Box::new(french::PLUGIN_METADATA));
 
   Plugins {
     list: h

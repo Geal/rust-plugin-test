@@ -8,12 +8,16 @@ impl PluginInformation for PluginMetadataType {
   fn name(&self) -> String {
     "français".to_string()
   }
+
+  fn get_instance(&self) -> Box<SayHello> {
+    Box::new(French)
+  }
 }
 
-pub struct English;
+pub struct French;
 
-impl SayHello for English {
-  fn say_hello() -> String {
+impl SayHello for French {
+  fn say_hello(&self) -> String {
     "Bonjour, tout le monde".to_string()
   }
 }
