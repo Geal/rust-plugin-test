@@ -1,7 +1,7 @@
 # generated file, do not edit manually
 
 [package]
-name = "plugin-test-api"
+name = "plugin-test-plugins"
 version = "0.1.0"
 authors = ["Geoffroy Couprie <geo.couprie@gmail.com>"]
 description = "plugins crate for the plugin-test experiment"
