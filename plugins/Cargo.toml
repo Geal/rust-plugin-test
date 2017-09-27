@@ -2,8 +2,10 @@
 
 [package]
 name = "plugin-test-api"
-version = "0.1"
-authors = ["geo"]
+version = "0.1.0"
+authors = ["Geoffroy Couprie <geo.couprie@gmail.com>"]
+description = "plugins crate for the plugin-test experiment"
+license = "MIT"
 
 # dependencies come from coalescing the metadata in plugins
 # if there are some dependenciespendency conflicts, maybe use
