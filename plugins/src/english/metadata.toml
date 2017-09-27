@@ -1,0 +1,5 @@
+plugin-name = "english"
+
+[dependencies]
+nom = "^3"
+

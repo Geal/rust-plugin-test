@@ -1,0 +1,17 @@
+# generated file, do not edit manually
+
+[package]
+name = "plugin-test-api"
+version = "0.1"
+authors = ["geo"]
+
+# dependencies come from coalescing the metadata in plugins
+# if there are some dependenciespendency conflicts, maybe use
+# another crate as indirection?
+[dependencies]
+nom = "^3"
+
+# directly import a plugin's crate instead of copying the code if necessary
+french = "0.1"
+
+plugin-api = "^0.1"

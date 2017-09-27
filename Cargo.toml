@@ -1,0 +1,8 @@
+[package]
+name = "plugin-test-main"
+version = "0.1.0"
+authors = ["Geoffroy Couprie <geo.couprie@gmail.com>"]
+build = "build.rs"
+
+[dependencies]
+plugin-test-plugins = { version = "^0.1", paths = "./plugins" }
