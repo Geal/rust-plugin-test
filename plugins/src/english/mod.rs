@@ -1,4 +1,12 @@
-use ::SayHello;
+use plugin_api::{PluginInformation,SayHello};
+
+pub struct PluginMetadata;
+
+impl PluginInformation for PluginMetadata {
+  fn name(&self) -> String {
+    "english".to_string()
+  }
+}
 
 pub struct English;
 

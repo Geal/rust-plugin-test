@@ -12,7 +12,7 @@ license = "MIT"
 # another crate as indirection?
 [dependencies]
 plugin-test-api = { version = "^0.1", paths = "../plugin-api" }
-nom = "^3"
+#nom = "^3"
 
 # directly import a plugin's crate instead of copying the code if necessary
 #french = "0.1"
