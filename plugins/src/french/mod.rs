@@ -1,4 +1,4 @@
-use plugin_api::{PluginInformation, SayHello};
+use plugin_test_api::{PluginInformation, SayHello};
 
 pub struct PluginMetadataType;
 
