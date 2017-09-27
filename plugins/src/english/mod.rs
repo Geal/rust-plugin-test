@@ -1,8 +1,10 @@
 use plugin_api::{PluginInformation,SayHello};
 
-pub struct PluginMetadata;
+pub struct PluginMetadataType;
 
-impl PluginInformation for PluginMetadata {
+pub const PLUGIN_METADATA: PluginMetadataType = PluginMetadataType;
+
+impl PluginInformation for PluginMetadataType {
   fn name(&self) -> String {
     "english".to_string()
   }
